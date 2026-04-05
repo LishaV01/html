@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Laniva Labs</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        input, textarea {
+            width: 100%;
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 8px;
+            padding: 16px;
+            color: #fff;
+            font-family: inherit;
+            font-size: 1rem;
+            margin-bottom: 24px;
+            transition: all 0.3s ease;
+        }
+        input:focus, textarea:focus {
+            outline: none;
+            border-color: rgba(255, 255, 255, 0.2);
+            background: rgba(255, 255, 255, 0.05);
+        }
+        label {
+            display: block;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: #555;
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body style="background: #000;">
+    <nav>
+        <div class="brand">LANIVA LABS</div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="index.html#services">Services</a>
+            <a href="blog.html">Blog</a>
+            <a href="contact.html" class="active">Contact</a>
+        </div>
+        <div style="width: 120px;"></div>
+    </nav>
+
+    <main style="padding-top: 140px; min-height: 100vh; background: #050507;">
+        <section class="section" style="padding-top: 0; background: transparent;">
+            <div class="container animate" style="max-width: 1000px;">
+                <div style="display: flex; flex-direction: column; align-items: center; text-align: center; margin-bottom: 80px;">
+                    <div class="badge" style="width: fit-content; margin-bottom: 32px; font-size: 0.7rem; color: #888;">
+                        <i class="fas fa-phone-alt" style="font-size: 0.7rem;"></i> CONTACT
+                    </div>
+                    <h1 style="font-size: clamp(3rem, 5vw, 4rem); font-weight: 500; margin-bottom: 16px; letter-spacing: -0.03em; color: #fff;">
+                        Reach Us <span class="serif" style="color: #888;">Anytime</span>
+                    </h1>
+                    <p style="color: #aaa; font-size: 1.1rem;">Have questions or need help? We're here for you</p>
+                </div>
+
+                <div style="display: grid; grid-template-columns: 1fr 1.5fr; gap: 32px;">
+                    
+                    <!-- Left Column: Email Us Card -->
+                    <div style="background: rgba(255,255,255,0.015); border: 1px solid rgba(255,255,255,0.05); border-radius: 24px; padding: 40px; display: flex; flex-direction: column; gap: 24px;">
+                        <div style="display: flex; align-items: center; gap: 16px;">
+                            <div style="width: 48px; height: 48px; background: rgba(255,255,255,0.05); border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 1.2rem; color: #fff;">
+                                <i class="far fa-envelope"></i>
+                            </div>
+                            <h3 style="font-size: 1.5rem; font-weight: 600; color: #fff;">Email Us</h3>
+                        </div>
+                        <p style="color: #888; line-height: 1.6; font-size: 1rem;">Facing technical challenges or product concerns? We're here to assist</p>
+                        <a href="mailto:Lanivalabs@gmail.com" style="color: #fff; text-decoration: underline; text-underline-offset: 4px; font-weight: 500;">Lanivalabs@gmail.com</a>
+                    </div>
+
+                    <!-- Right Column: Form Card -->
+                    <div style="background: rgba(255,255,255,0.015); border: 1px solid rgba(255,255,255,0.05); border-radius: 24px; padding: 48px; display: flex; flex-direction: column; align-items: center;">
+                        <div style="width: 48px; height: 48px; background: rgba(255,255,255,0.05); border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 1.2rem; color: #888; margin-bottom: 24px;">
+                            <i class="fas fa-headset"></i>
+                        </div>
+                        <h3 style="font-size: 1.4rem; font-weight: 600; color: #fff; margin-bottom: 40px; text-align: center;">We'd love to help! Let us know how</h3>
+
+                        <form class="contact-form" style="width: 100%;">
+                            <div>
+                                <label for="name" style="text-transform: none; letter-spacing: normal; font-weight: 500; color: #bbb; margin-bottom: 12px;">Full Name</label>
+                                <input type="text" id="name" placeholder="Laniva Labs" required style="background: rgba(0,0,0,0.3); border: 1px solid rgba(255,255,255,0.05); border-radius: 8px; padding: 16px; margin-bottom: 24px; font-size: 0.95rem; color: #888;">
+                            </div>
+                            <div>
+                                <label for="email" style="text-transform: none; letter-spacing: normal; font-weight: 500; color: #bbb; margin-bottom: 12px;">Email Address</label>
+                                <input type="email" id="email" placeholder="Lanivalabs@gmail.com" required style="background: rgba(0,0,0,0.3); border: 1px solid rgba(255,255,255,0.05); border-radius: 8px; padding: 16px; margin-bottom: 24px; font-size: 0.95rem; color: #888;">
+                            </div>
+                            <div>
+                                <label for="subject" style="text-transform: none; letter-spacing: normal; font-weight: 500; color: #bbb; margin-bottom: 12px;">Subject Of Interest</label>
+                                <input type="text" id="subject" placeholder="Regarding Product" required style="background: rgba(0,0,0,0.3); border: 1px solid rgba(255,255,255,0.05); border-radius: 8px; padding: 16px; margin-bottom: 24px; font-size: 0.95rem; color: #888;">
+                            </div>
+                            <div>
+                                <label for="message" style="text-transform: none; letter-spacing: normal; font-weight: 500; color: #bbb; margin-bottom: 12px;">How may we assist you?</label>
+                                <textarea id="message" rows="4" placeholder="Give us more info.." required style="background: rgba(0,0,0,0.3); border: 1px solid rgba(255,255,255,0.05); border-radius: 8px; padding: 16px; margin-bottom: 32px; font-size: 0.95rem; color: #888; resize: vertical;"></textarea>
+                            </div>
+                            <button type="submit" style="width: 100%; background: transparent; border: 1px solid rgba(255,255,255,0.1); color: #fff; border-radius: 8px; padding: 16px; font-size: 1rem; font-weight: 600; cursor: pointer; transition: all 0.3s ease;">
+                                Send Your Message
+                            </button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Laniva Labs. All rights reserved.</p>
+            <div style="margin-top: 16px; display: flex; justify-content: center; gap: 24px; font-size: 0.8rem; color: #555;">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Twitter</a>
+                <a href="#">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
